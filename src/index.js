@@ -10,6 +10,7 @@ const message = `
 * kernel version: ${os.version()}
 * mem: ${os.totalmem()}
 * cpus: ${JSON.stringify(os.cpus())}
+* hostname: ${os.hostname()}
 `;
 
 console.log(`\n${message}\n`);
